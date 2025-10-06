@@ -1,17 +1,17 @@
-li {
+.nav-option li {
   padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
   border: 1px solid transparent;
 }
-li:hover {
+.nav-option li:hover {
   border: 1px solid #22c55e;
   color: #22c55e;
   font-weight: 600;
 }
 
-button {
+.nav-btn button {
   padding: 8px 16px;
   border-radius: 6px;
   color: white;

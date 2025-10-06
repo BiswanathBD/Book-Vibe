@@ -1,0 +1,5 @@
+.footer-option li:hover{
+  font-weight: 600;
+  color: #7dffad;
+  cursor: pointer;
+}
