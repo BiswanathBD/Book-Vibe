@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
