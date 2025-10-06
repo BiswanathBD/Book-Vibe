@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { GiBookCover } from "react-icons/gi";
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
@@ -9,7 +10,9 @@ const Navbar = () => {
         B<span className="text-green-500">OO</span>K Vibe
       </h3>
       <ul className="md:flex gap-1 text-sm items-center text-neutral-600 nav-option hidden">
-        <li>Home</li>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
         <li>Listed Books</li>
         <li>Pages to Read</li>
       </ul>

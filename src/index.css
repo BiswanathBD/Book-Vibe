@@ -4,3 +4,8 @@
 .work-sans {
   font-family: "Work Sans", sans-serif;
 }
+body::selection {
+  background-color: #22c55e;
+  color: white;
+  
+}
